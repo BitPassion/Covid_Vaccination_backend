@@ -1,0 +1,27 @@
+{
+  "name": "backend-vaccination",
+  "version": "1.0.0",
+  "description": "Covid-19 vaccination scheduling system.",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/daradsl/backend-vaccination.git",
+  "author": "daradsl <dara_dsl@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0"
+  }
+}
